@@ -1,0 +1,12 @@
+/*Universal selektor för att välja alla tillgängliga html element*/
+* {
+  /*boder-box betyder att ett elements innehåll såsom text, bilder eller andra element trycks ihop när, 
+    margin padding eller en boder appliceras, istället för att elementet växer is storlek vilket är grundvärdet*/
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
