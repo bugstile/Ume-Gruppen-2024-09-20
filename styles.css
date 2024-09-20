@@ -5,6 +5,37 @@
   box-sizing: border-box;
 }
 
+/* I CSS används :root som en speciell selektor som representerar det högsta elementet i ditt dokument, 
+det vill säga HTML-taggen (<html>). När du definierar variabler under :root, blir de tillgängliga 
+över hela ditt CSS-dokument, vilket gör det enkelt att återanvända dem var som helst på sidan. */
+:root {
+  --first-color: #272343; /* marin blå */
+  --second-color: #ffffff; /* vit */
+  --third-color: #e3f6f5; /* ljus blå */
+  --fourth-color: #bae8e8; /* ljus turkos */
+}
+
+/* Exempel på anvädning av css-variabler */
+/* .first-color {
+  background: var(--first-color);
+  color: var(--second-color); Use white text on the dark background
+}
+
+.second-color {
+  background: var(--second-color);
+  color: var(--first-color); Use dark text on the light background
+}
+
+.third-color {
+  background: var(--third-color);
+  color: var(--first-color); Dark text on light blue
+}
+
+.fourth-color {
+  background: var(--fourth-color);
+  color: var(--first-color); Dark text on light turquoise
+} */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
