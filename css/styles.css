@@ -334,6 +334,23 @@ footer .contactContainer p {
   aside ul li {
     text-align: left;
   }
+  footer article {
+    flex: 1;
+    max-width: 750px;
+  }
+
+  footer .footerContainer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .contactContainer {
+    padding-left: 250px;
+  }
+
+  footer .textContainer {
+    padding-right: 250px;
+  }
 }
 
 /*Animation för att loggan ska flyga in från vänster*/
